@@ -61,14 +61,14 @@ if there is a specific gem you'd like to use in the project, please get permissi
 Merchants
 Merchants are organizations/companies who sell items on our site (as opposed to individual people/users)
 
-[ ] done
+[x] done
 
 User Story 1, Merchant Index
 
 As a visitor
 When I visit '/merchants'
 Then I see the name of each merchant in the system
-[ ] done
+[x] done
 
 User Story 2, Merchant Show
 
@@ -80,7 +80,7 @@ Then I see the merchant with that id including the merchant's:
 - city
 - state
 - zip
-[ ] done
+[x] done
 
 User Story 3, Merchant Creation
 
@@ -99,7 +99,7 @@ And I click the button to submit the form
 Then a `POST` request is sent to '/merchants',
 a new merchant is created,
 and I am redirected to the Merchant Index page where I see the new Merchant listed.
-[ ] done
+[x] done
 
 User Story 4, Merchant Update
 
@@ -119,7 +119,7 @@ And I click the button to submit the form
 Then a `PATCH` request is sent to '/merchants/:id',
 the merchant's info is updated,
 and I am redirected to the Merchant's Show page where I see the merchant's updated info
-[ ] done
+[x] done
 
 User Story 5, Merchant Delete
 
@@ -133,7 +133,7 @@ and I am redirected to the merchant index page where I no longer see this mercha
 Items
 Items are sold on the site. They belong to a merchant.
 
-[ ] done
+[x] done
 
 User Story 6, Item Index
 

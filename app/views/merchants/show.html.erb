@@ -1,0 +1,10 @@
+<%= link_to 'Update Merchant', "/merchants/#{@merchant.id}/edit" %><br>
+
+<a href= '/merchants' > Merchant Index </a><br>
+<%= link_to 'Delete Merchant',"/merchants/#{@merchant.id}", method: "delete"%>
+
+<h1><%= @merchant.name %></h1>
+<p><%= @merchant.address %></p>
+<p><%= @merchant.city %></p>
+<p><%= @merchant.state %></p>
+<p><%= @merchant.zip %></p>
